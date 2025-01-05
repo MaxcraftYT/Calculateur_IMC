@@ -12,20 +12,14 @@ Ce programme calcule l'IMC de l'utilisateur en fonction de son poids et de sa ta
 ## ✨ Fonctionnalités
 
 - Saisie utilisateur : Demande le poids et la taille de l'utilisateur en kg et m.
-- Calcul de l'IMC : L'IMC est calculé selon la formule suivante :
-𝐼
-𝑀
-𝐶
-=
-Poids (kg)
-Taille (m)
-2
-IMC= 
-Taille (m) 
-2
- 
-Poids (kg)
-​
+- Calcul de l'IMC : L'IMC est calculé selon la formule suivante : 
+​- Interprétation du résultat : Le programme donne une interprétation en fonction du résultat de l'IMC : \[ IMC = \frac{Poids \, (kg)}{Taille^2 \, (m^2)} \]
+     - Sous poids : IMC < 18.5
+     - Poids normal : 18.5 ≤ IMC < 24.9
+     - Surpoids : 25 ≤ IMC < 29.9
+     - Obésité : IMC ≥ 30
+- Barre de progression : Lors du calcul, une barre de progression est affichée pour simuler le calcul de l'IMC de manière dynamique et visuellement engageante.
+- Affichage coloré : Les résultats sont affichés avec des couleurs pour les rendre plus visuellement attractifs.
 
 ## 🚀 Installation
 
@@ -45,7 +39,7 @@ Poids (kg)
 
 ## ✨ Améliorations possibles
 
-- Créer une interface graphique pour le jeu.
+- Créer une interface graphique pour le calculateur d'IMC.
 
 ## 🤝 Contribution
 
@@ -62,6 +56,3 @@ Si vous souhaitez contribuer à ce projet, veuillez suivre ces étapes :
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE] pour plus de détails.
 
 Si vous utilisez, modifiez ou redistribuez ce code, vous devez inclure une copie de la licence et mentionner l'auteur original : Maxcraft_YT. Merci de respecter cette règle ! 😊
-
-## 🌟 Remerciement
-- **brickinclackman** pour son accompagnement lors de la réalisation de ce projet.
