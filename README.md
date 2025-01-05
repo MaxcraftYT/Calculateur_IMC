@@ -13,7 +13,7 @@ Ce programme calcule l'IMC de l'utilisateur en fonction de son poids et de sa ta
 
 - Saisie utilisateur : Demande le poids et la taille de l'utilisateur en kg et m.
 - Calcul de l'IMC : L'IMC est calculé selon la formule suivante : 
-​- Interprétation du résultat : Le programme donne une interprétation en fonction du résultat de l'IMC : \[ IMC = \frac{Poids \, (kg)}{Taille^2 \, (m^2)} \]
+​- Interprétation du résultat : Le programme donne une interprétation en fonction du résultat de l'IMC : `\( IMC = \frac{Poids \, (kg)}{Taille^2 \, (m^2)} \)`.
      - Sous poids : IMC < 18.5
      - Poids normal : 18.5 ≤ IMC < 24.9
      - Surpoids : 25 ≤ IMC < 29.9
